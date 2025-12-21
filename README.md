@@ -5,7 +5,7 @@
  🌌 STELLAR PORTFOLIO
 **Enterprise Web Developer** • **5 Production-Ready Projects** • **Pure HTML/CSS Mastery**
 
-![Stellar Portfolio Banner](https://via.placeholder.com/1200x400/0a0f1d/7c5cff?text=STELLAR+PORTFOLIO+-+ENTERPRISE+WEB+DEVELOPER)
+![Stellar Portfolio Banner](https://github.com/JOEINTERCOM/Stellar-Portfolio/blob/main/Screenshot%202025-12-21%20135807.png?raw=true)
 
 </div>
 
