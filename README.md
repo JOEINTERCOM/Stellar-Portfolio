@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Stellar Portfolio](https://img.shields.io/badge/Live%20Portfolio-Netlify-00D4FF?style=for-the-badge&logo=netlify&logoColor=white)](https://stellar-portfoliosite.netlify.app)
+[![Stellar Portfolio](https://img.shields.io/badge/Live%20Portfolio-Github-00D4FF?style=for-the-badge&logo=netlify&logoColor=white)](https://joeintercom.github.io/Stellar-Portfolio)
 
  🌌 STELLAR PORTFOLIO
 **Enterprise Web Developer** • **5 Production-Ready Projects** • **Pure HTML/CSS Mastery**
