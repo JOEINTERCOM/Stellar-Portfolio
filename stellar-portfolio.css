@@ -995,34 +995,5 @@ section.nav-boost {
   will-change: transform, opacity;
 }
 
-/* Make project card auto‑height and safer on mobile */
-.project-card {
-    min-height: auto;
-}
 
-/* Let the card grow with content instead of forcing a fixed image area */
-.project-image {
-    height: auto !important;
-}
 
-/* Tweak spacing and text size on small screens so nothing clips */
-@media (max-width: 480px) {
-    .project-content {
-        padding: 2rem !important;
-    }
-
-    .project-title {
-        font-size: 1.6rem !important;
-        margin-bottom: 1rem;
-    }
-
-    .project-desc {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .project-links a {
-        padding: 0.8rem 1.4rem !important;
-        font-size: 1rem;
-    }
-}
