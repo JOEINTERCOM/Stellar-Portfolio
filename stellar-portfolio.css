@@ -164,7 +164,68 @@ body {
 .nav-links a:hover::after {
     width: 100%;
 }
+/* Hamburger base (hidden by default) */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #e0e7ff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
 
+/* Mobile navbar */
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 1rem 1.5rem;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 70px;          /* just under the navbar */
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        gap: 1.5rem;
+        background: rgba(10,10,26,0.98);
+        padding: 1.5rem 2rem 2rem;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links a::after {
+        bottom: -4px;
+    }
+
+    /* visible state */
+    .nav-links.nav-open {
+        transform: translateY(0);
+    }
+}
+
+/* Desktop keeps your old layout */
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex;
+        gap: 3rem;
+        position: static;
+        transform: none;
+        background: transparent;
+        padding: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+}
 /* === CONTAINER === */
 .container {
     max-width: 1400px;
@@ -934,3 +995,34 @@ section.nav-boost {
   will-change: transform, opacity;
 }
 
+/* Make project card auto‑height and safer on mobile */
+.project-card {
+    min-height: auto;
+}
+
+/* Let the card grow with content instead of forcing a fixed image area */
+.project-image {
+    height: auto !important;
+}
+
+/* Tweak spacing and text size on small screens so nothing clips */
+@media (max-width: 480px) {
+    .project-content {
+        padding: 2rem !important;
+    }
+
+    .project-title {
+        font-size: 1.6rem !important;
+        margin-bottom: 1rem;
+    }
+
+    .project-desc {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-links a {
+        padding: 0.8rem 1.4rem !important;
+        font-size: 1rem;
+    }
+}
