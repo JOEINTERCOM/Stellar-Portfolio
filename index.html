@@ -22,24 +22,21 @@
     <div class="particles" id="particles"></div>
 
     <!-- ELEGANT NAVBAR -->
-<nav class="stellar-nav">
-    <div class="nav-container">
-        <div class="logo">
-            <span class="logo-text">STELLAR</span>
+<!-- ELEGANT NAVBAR -->
+    <nav class="stellar-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">STELLAR</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#myword">My Word</a></li>
+                <li><a href="#contact">Hire Me</a></li>
+            </ul>
         </div>
-
-        <!-- ADD THIS: hamburger button -->
-        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-
-        <ul class="nav-links">
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#myword">My Word</a></li>
-            <li><a href="#contact">Hire Me</a></li>
-        </ul>
-    </div>
-</nav>
+    </nav>
 
     <!-- INTRODUCTION SECTION -->
     <section id="intro" class="section intro-section">
@@ -324,27 +321,10 @@
             });
         });
     </script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    const toggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelector('.nav-links');
 
-    if (toggle && navLinks) {
-        toggle.addEventListener('click', function () {
-            navLinks.classList.toggle('nav-open');
-        });
-
-        // Optional: close menu when a link is tapped
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('nav-open');
-            });
-        });
-    }
-});
-</script>
 </body>
 
 
 </html>
+
 
