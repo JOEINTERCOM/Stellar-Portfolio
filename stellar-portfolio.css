@@ -944,33 +944,19 @@ section.nav-boost {
   will-change: transform, opacity;
 }
 
-
-/* Mobile general: zoom out a bit */
+/* Zoom OUT project screenshots on mobile only */
 @media (max-width: 768px) {
   .project-image {
-    background-size: 120% auto;   /* shows more of the image than cover */
-    background-position: center top;
+    background-size: contain !important;  /* show more of the image */
+    background-position: top center !important;
   }
 }
 
-/* Your phone width ~425px: zoom out even more + adjust height */
+/* Extra tuning for your ~425px phone */
 @media (max-width: 425px) {
   .project-image {
-    background-size: contain;     /* fit entire screenshot inside card */
-    background-position: top center;
-    height: 220px;                /* optional: reduce height if card feels too tall */
-  }
-
-  .project-content {
-    padding: 2rem 1.5rem;         /* slightly tighter content spacing on small phones */
-  }
-
-  .project-title {
-    font-size: 1.6rem;
-  }
-
-  .project-desc {
-    font-size: 0.95rem;
+    background-size: contain !important;  /* definitely zoomed out */
+    height: 220px;                        /* optional: adjust card height */
   }
 }
 
