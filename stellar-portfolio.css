@@ -479,7 +479,7 @@ body {
     border-radius: 32px 32px 0 0;
     position: relative;
     overflow: hidden;
-background:  center top/cover no-repeat;
+
 
 }
 
@@ -952,6 +952,7 @@ section.nav-boost {
     height: 100px;                        /* optional: adjust card height */
   }
 }
+
 
 
 
