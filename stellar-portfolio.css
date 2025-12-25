@@ -948,10 +948,11 @@ section.nav-boost {
 /* Extra tuning for your ~425px phone */
 @media (max-width: 425px) {
   .project-image {
-     /* definitely zoomed out */
-    height: 200px;                        /* optional: adjust card height */
+    background-size: contain !important;  /* definitely zoomed out */
+    height: 100px;                        /* optional: adjust card height */
   }
 }
+
 
 
 
