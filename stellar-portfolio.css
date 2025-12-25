@@ -455,14 +455,6 @@ body {
 }
 
 
-/* On mobile, zoom OUT (show more of the image) */
-@media (max-width: 768px) {
-  .project-image {
-    background-size: contain;   /* or 120% if you still want some crop */
-    background-position: center top;
-  }
-}
-
 .project-card {
     background: rgba(20,20,50,0.9);
     backdrop-filter: blur(30px);
@@ -959,6 +951,7 @@ section.nav-boost {
     height: 220px;                        /* optional: adjust card height */
   }
 }
+
 
 
 
