@@ -939,6 +939,7 @@ section.nav-boost {
 /* Zoom OUT project screenshots on mobile only */
 @media (max-width: 768px) {
   .project-image {
+      height: 200px;
     background-size: contain !important;  /* show more of the image */
     background-position: top center !important;
   }
@@ -947,10 +948,11 @@ section.nav-boost {
 /* Extra tuning for your ~425px phone */
 @media (max-width: 425px) {
   .project-image {
-    background-size: contain !important;  /* definitely zoomed out */
-    height: 220px;                        /* optional: adjust card height */
+     /* definitely zoomed out */
+    height: 200px;                        /* optional: adjust card height */
   }
 }
+
 
 
 
