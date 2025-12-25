@@ -949,9 +949,11 @@ section.nav-boost {
 @media (max-width: 425px) {
   .project-image {
     background-size: contain !important;  /* definitely zoomed out */
-    height: 100px;                        /* optional: adjust card height */
+    height: 200px; /* optional: adjust card height */
+        background-position: top center !important;
   }
 }
+
 
 
 
