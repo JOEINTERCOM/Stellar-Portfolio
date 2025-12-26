@@ -954,9 +954,10 @@ section.nav-boost {
   .project-image {
     background-size: contain !important;  /* definitely zoomed out */
   /* optional: adjust card height */
-      height: 160px;
+      height: 90px;
   }
 }
+
 
 
 
