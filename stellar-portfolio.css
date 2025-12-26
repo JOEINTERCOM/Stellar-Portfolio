@@ -475,9 +475,9 @@ body {
 }
 
 .project-image {
-    width: 100px;
     
- aspect-ratio: 16 / 10;    /* 220px → 340px (55% BIGGER) */
+    
+ height:340px;    /* 220px → 340px (55% BIGGER) */
     border-radius: 32px 32px 0 0;
     position: relative;
     overflow: hidden;
@@ -954,9 +954,10 @@ section.nav-boost {
   .project-image {
     background-size: contain !important;  /* definitely zoomed out */
   /* optional: adjust card height */
-        aspect-ratio: 16 / 11;
+      height: 190px;
   }
 }
+
 
 
 
