@@ -475,11 +475,15 @@ body {
 }
 
 .project-image {
-    height: 340px !important;     /* 220px → 340px (55% BIGGER) */
+    width: 100px;
+    
+ aspect-ratio: 16 / 10;    /* 220px → 340px (55% BIGGER) */
     border-radius: 32px 32px 0 0;
     position: relative;
     overflow: hidden;
-
+background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
@@ -939,9 +943,9 @@ section.nav-boost {
 /* Zoom OUT project screenshots on mobile only */
 @media (max-width: 768px) {
   .project-image {
-      height: 200px;
+ 
     background-size: contain !important;  /* show more of the image */
-    background-position: top center !important;
+    
   }
 }
 
@@ -949,10 +953,11 @@ section.nav-boost {
 @media (max-width: 425px) {
   .project-image {
     background-size: contain !important;  /* definitely zoomed out */
-    height: 140px; /* optional: adjust card height */
-        
+  /* optional: adjust card height */
+        aspect-ratio: 16 / 11;
   }
 }
+
 
 
 
