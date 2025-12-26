@@ -952,12 +952,13 @@ section.nav-boost {
 /* Extra tuning for your ~425px phone */
 @media (max-width: 425px) {
   .project-image {
-    background-size: contain !important;  /* definitely zoomed out */
+    background-size: cover !important;  /* definitely zoomed out */
   /* optional: adjust card height */
-      height: 100px;
-      width: 250px;
+      height: 160px;
+    
   }
 }
+
 
 
 
