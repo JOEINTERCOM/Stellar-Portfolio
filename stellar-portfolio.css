@@ -944,7 +944,7 @@ section.nav-boost {
 @media (max-width: 768px) {
   .project-image {
  
-    background-size: contain !important;  /* show more of the image */
+    background-size: cover !important;  /* show more of the image */
     
   }
 }
@@ -958,6 +958,7 @@ section.nav-boost {
     
   }
 }
+
 
 
 
