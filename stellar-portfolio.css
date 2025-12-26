@@ -495,7 +495,7 @@ background-position: center top;
 }
 
 .project-title {
-    font-size: 2.2rem !important; /* 1.6rem → 2.2rem (Bigger titles) */
+    font-size: 1.8rem !important; /* 1.6rem → 2.2rem (Bigger titles) */
     font-weight: 800;
     margin-bottom: 1.5rem;
     background: linear-gradient(135deg, #fff, #a855f7);
@@ -958,6 +958,7 @@ section.nav-boost {
     
   }
 }
+
 
 
 
