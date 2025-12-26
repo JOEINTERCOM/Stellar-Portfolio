@@ -955,9 +955,10 @@ section.nav-boost {
     background-size: contain !important;  /* definitely zoomed out */
   /* optional: adjust card height */
       height: 90px;
-      width: 340px;
+      width: 300px;
   }
 }
+
 
 
 
